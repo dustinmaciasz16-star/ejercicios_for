@@ -28,7 +28,7 @@ function listarImpares(){
 }
 
 function ejecutar(numeor){
-    if(numeor == 1){
+    /*if(numeor == 1){
         listarNumeros();
     }else if(numeor == 2){
         listarNumerosReversa();
@@ -36,5 +36,19 @@ function ejecutar(numeor){
         listarPares();
     }else if(numeor == 4){
         listarImpares();
-    }
+    }*/
+   switch(numeor){
+    case 1:
+        listarNumeros();
+        break;
+    case 2:
+        listarNumerosReversa();
+        break;
+    case 3:
+        listarPares();
+        break;
+    case 4:
+        listarImpares();
+        break;
+   }
 }
